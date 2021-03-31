@@ -1,5 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+/* Navigation Classes */
+
 .navbar {
 	background-color: black !important;
 }
@@ -20,6 +22,8 @@
 	letter-spacing: -1px;
 	font-weight: bold;
 }
+
+/* Home Page Classes */
 
 #home-container {
 	margin-top: 25px;
@@ -57,6 +61,11 @@ body {
   background: #007bff;
   background: white;
 }
+
+h1 {
+	font-weight: bold;
+}
+
 
 
 
