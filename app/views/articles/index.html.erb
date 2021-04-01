@@ -2,4 +2,13 @@
 
 <h1 class= "text-center mt-4">Articles</h1>
 
+
+<div class="flickr_pagination pagination-wrapper mt-3">
+  <%= will_paginate @articles, :container => false %>
+</div>
+
 <%= render 'article' %>
+
+<div class="flickr_pagination pagination-wrapper mb-3">
+  <%= will_paginate @articles, :container => false %>
+</div>
